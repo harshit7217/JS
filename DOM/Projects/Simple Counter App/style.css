@@ -1,0 +1,31 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px solid black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    width: 90px;
+    height: 80px;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: darkcyan;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: black;
+}
