@@ -1,0 +1,35 @@
+body {
+    padding: auto;
+    margin: auto;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+label {
+    margin: 10px;
+}
+
+button {
+    background-color: azure;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    font-style: italic;
+    border: 3px solid black;
+}
