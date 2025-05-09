@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cal {
+    margin-left: 35%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: 5px solid black;
+    row-gap: 5px;
+    padding: 2%;
+}
+
+.button {
+    background-color: beige;
+}
+
+button {
+    margin-left: 1%;
+    width: 21.5%;
+}
+
+input {
+    border: 2px solid black;
+    background-color: beige;
+}
+
+#res {
+    width: 100%;
+}
