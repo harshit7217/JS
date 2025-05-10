@@ -1,0 +1,22 @@
+body {
+    margin: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+}
+
+button {
+    width: 250px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    border: 5px solid black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.change {
+    background-color: bisque;
+}
