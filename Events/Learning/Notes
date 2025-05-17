@@ -1,0 +1,36 @@
+Events : the change in the state of an object is known as an Events
+
+Events are fired to notify code of "interesting changes" that may affect code exection
+
+
+-> Mouse events(click, double click)
+->Keyboard events (keypress, keyup, keydown)
+->Form Events(submit)
+->Print event and many more
+
+to learn more Events : go to the website npm events
+
+Events Handling in JS
+
+Node.event = ()=> {
+    //handle here
+}
+
+#Event Objects :
+it is a special object that has detail about the event.
+
+All the event handler have access to the Event Object's properties and methods
+
+Node.event = (e) => {
+    //Handler here
+}
+
+e.target, e.type, e.clientX, e.clientY
+
+# Event Listner
+
+node.addEventListner(event, callback)
+
+node.removeEventListener(event, callback)
+
+*Note : the callback reference should be same to remove 
